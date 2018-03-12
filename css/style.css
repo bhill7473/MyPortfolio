@@ -1,65 +1,6 @@
-.center-div
-{
-     margin: 0 auto;
-     width:350px;
-     height:350px;
-     margin-top: 100px;
-
-
-}
-.skills{
-  float:left;
-  width:300px;
-  height:300px;
-  margin-left:100px;
-  margin-top:100px;
-  color:#fff;
-  background-color: #494b4f;
-  padding:2px;
-  border: 1px solid #fff;
-
-}
-.pitch{
-  float:right;
-  width:300px;
-  margin-right:100px;
-  margin-top:100px;
-  color:#fff;
-  background-color: #494b4f;
-  padding:2px;
-  border: 1px solid #fff;
-
-}
-.text-area{
-  margin:0 auto;
-  border: 2px solid #494b4f;
-  width:70%;
-
-}
-p{
-  padding:5px;
-  color:#fff;
-  text-indent: 30px;
-}
-
-.banner{
-  margin:0 auto;
-  margin-left: 30%;
-  margin-top:50px;
-}
-h3{
-  color:#fff;
-}
 body{
-  background-color:#00d4ff ;
-
+  background-color: #42c5f4;
 }
-
-#picture{
-  width:300px;
-  height:350px;
-
-}
-a{
-  color:#fff;
+#name{
+  color: black;
 }
