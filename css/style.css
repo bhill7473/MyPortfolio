@@ -4,3 +4,8 @@ body{
 #name{
   color: black;
 }
+#header{
+  position:fixed;
+  left:0;
+  top:0;
+}
