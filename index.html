@@ -1,157 +1,147 @@
 <!DOCTYPE html>
 <html>
-<title>Portfolio</title>
+<head>
+<title>Brent's Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
-<body  >
-
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
+<link rel="stylesheet" href="./css/style.css"></link>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+</head>
+<body class="w3-light-grey" background="/images/ss5.jpg">
 
 
-    <!-- Left Column -->
-    <div class="w3-third">
+<div class="w3-content" style="max-width:1400px">
 
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="./images/image2.png" style="width:100%" alt="Avatar">
-          <div class="w3-display-topleft w3-container w3-text-black">
-            <h2 id="name">Brent Hillen</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full Stack Programmer and Developer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Cleveland, Ohio</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>bhill7473@gmail.com</p>
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32">
+  <h1><b>Full Stack Developer</b></h1>
+  <p id="phead">Welcome to my Portfolio!</p>
+</header>
 
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>HTML,CSS</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Javascript</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Node.js</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>React.js</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <br>
+<!-- Grid -->
+<div class="w3-row">
 
 
-          <br>
-        </div>
-      </div><br>
+<div class="w3-col l8 s12">
 
-    <!-- End Left Column -->
+  <div class="w3-card-4 w3-margin w3-white">
+
+    <div class="w3-container">
+      <h3><b>About Me</b></h3>
+
     </div>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
+    <div class="w3-container">
+      <p>I am a junior developer that recently graduated from Case Western Reserve's coding boot camp. I am currently pursuing a BS
+      in Digital Sciences at Kent State University. I got interested in programming while trying to figure out on my own how the internet works,
+    and just playing around with different capabilities computers have. Since then I got serious about really learning how everything works inside, and out.
+  This led me to the career path I'm on now. I enjoy web developing because you can turn your ideas into reality, and in a sense your a modern day artist. When I'm not coding I like to workout,
+   listen to music, play video games, watch movies, and do pretty much anything outdoors.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+        <button id="btn1" class="w3-button w3-padding-large w3-blue w3-border"><b>LinkedIn »</b></button><button id="btn2" class="w3-button w3-padding-large w3-blue w3-border"><b>Github »</b></button>
 
-      <!-- Education -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="	fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Kent State University</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018-2022</h6>
-          <p>BA of Digital Sciences</p>
-          <hr>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Case Western University</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017-2018</h6>
-          <p>Certificate of Completion for Full Stack Programming Boot Camp</p>
-          <hr>
-        </div>
+        <div class="w3-col m4 w3-hide-small">
 
-      <!-- Projects -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="	fa fa-rocket fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Post and Pick</b></h5>
-          <a href=" https://postpick-app.herokuapp.com/"><button class="w3-button w3-teal"><h6 class="w3-text-white"><i class="fa fa-arrow-right fa-fw w3-margin-right"></i>Live Site</h6></button></a>
-          <p>Post and Pick is full stack application that runs using node, express, SQL, and passport for user authentication. The was developed to make life easier for users who play fantasy basketball.  This application helps by saving data from the user’s fantasy team they created and stores the information in a database. This way the user can go back to see how certain players and teams performed against each other to give them an idea of how future games will be against the same competitors.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Mix it App</b></h5>
-          <a href="https://github.com/PsuedosideSQUAD/MixApp"><button class="w3-button w3-teal"><h6 class="w3-text-white"><i class="fa fa-arrow-right fa-fw w3-margin-right"></i>Source Code</h6></button></a>
-          <p>Mix it is an application built using the MERN stack which consists of mongo, express, react, and node. This application was created so a user could pick their favorite songs and mix them into a completely new song that they create.  </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Excites and Bites </b></h5>
-          <a href="https://github.com/CodingCrew1/Project1"><button class="w3-button w3-teal"><h6 class="w3-text-white"><i class="fa fa-arrow-right fa-fw w3-margin-right"></i>Source Code</h6></button></a>
-          <p>Excites and Bites is exactly how it sounds.  It is an application built around the need of finding exciting events, and places to eat around the area of the event. This works by using a API call to find events in whichever area you may be looking to attend. After you have chosen your event in the location that you wish you can search all the places there are to eat in the radius you desire. </p>
-          <hr>
-        </div>
-
-
-
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom ">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Shipping Manager, StablWall</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2017 - Jan 2018 </h6>
-          <p>Perform shipping responsibilities for franchises and distributors, put together materials for shipment and materials for crews that waterproof homes locally.  Maintain cleanliness and safety of shop and workspace.  Take and fill orders unload truck shipments and take inventory of all material.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Grounds Crew, Hawthorne Valley Country Club</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2017 - Jun 2017</h6>
-          <p>Cut and change holes on greens. Work on irrigation system changing heads if needed. Mow fairways, tees, greens, and rough. Spin bunkers and trim edges.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Grounds Crew, Barrington Golf Club</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2016 - Oct 2017</h6>
-          <p>Cut and change holes on greens. Work on irrigation system changing heads if needed. Mow fairways, tees, greens, and rough. Spin bunkers and trim edges. </p><br>
         </div>
       </div>
-
-
-
-      </div>
-
-    <!-- End Right Column -->
     </div>
-
-  <!-- End Grid -->
   </div>
 
-  <!-- End Page Container -->
-</div>
-<footer id="footer" class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
 
-  <a  href="https://www.linkedin.com/in/brent-hillen/"><i  class="fa fa-github w3-hover-opacity" ></i></a>
-  <a href="https://github.com/bhill7473"><i class="fa fa-linkedin w3-hover-opacity "></i></a>
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+
+    <div class="w3-container">
+      <h3><b>Coding Languages</b></h3>
+    </div>
+
+    <div class="w3-container">
+     <ul class="skillList">
+       <li><b>JavaScript</b></li>
+       <li><b>HTML, CSS</b></li>
+       <li><b>Node.js</b></li>
+       <li><b>SQL</b></li>
+       <li><b>React.js</b></li>
+       <li><b>MongoDB</b></li>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="./images/image2.png" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Brent Hillen</b></h4>
+      <p>Cleveland, OH</p>
+      <p>bhill7473@gmail.com</p>
+    </div>
+  </div>
+
+
+  <div class="w3-card w3-margin w3-white">
+    <div class="w3-container w3-padding">
+      <h4><b>My Projects</b></h4>
+    </div>
+    <ul id="list" class="w3-ul w3-hoverable w3-white">
+      <li id="postpick" class="w3-padding-16">
+        <img id="postpick" src="./images/ss1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Post Pick</span><br>
+        <p>Fantasy Basketball Application</p>
+      </li>
+      <li id="excitesbites"class="w3-padding-16">
+        <img src="./images/ss2.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Excites and Bites</span><br>
+        <p>Events and Food Application</p>
+      </li>
+      <li id="mobiledesign"class="w3-padding-16">
+        <img src="./images/ss3.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Mobile Design</span><br>
+        <p>Mobile Web Design</p>
+      </li>
+      <li id="clothing" class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="./images/ss4.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Clothing Store</span><br>
+        <p>Online Store</p>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+
 
 </footer>
-
 
 </body>
 </html>
