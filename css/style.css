@@ -1,11 +1,21 @@
 body{
-  background-color: #42c5f4;
+background-image: url('../images/ss5.jpg');
 }
-#name{
-  color: black;
+button{
+  margin:5px;
 }
-#header{
-  position:fixed;
-  left:0;
-  top:0;
+li{
+  cursor: pointer;
+
+
+}
+.list{
+  border: 1px solid black;
+  height:90px;
+}
+h1{
+  color:#fff;
+}
+#phead{
+  color:#fff;
 }
